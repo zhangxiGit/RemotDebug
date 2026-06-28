@@ -1,0 +1,22 @@
+- [x] 协议模块已创建，包含消息封装、解析、校验、错误响应函数
+- [x] 消息封装自动生成MSG_ID(UUID v4)和TIMESTAMP(毫秒)
+- [x] 消息校验覆盖所有字段规则（USERNAME/CMD/DATA/MSG_ID/TIMESTAMP/VERSION）
+- [x] CMD枚举常量已定义（LOG/STATUS/HEARTBEAT/ACK/EXEC/CONFIG）
+- [x] Topic常量已定义（Topic A: Elitch/RemotDebug/Client, Topic B: Elitch/RemotDebug/Console）
+- [x] MQTT客户端支持自动重连
+- [x] Client端连接后自动订阅Topic B
+- [x] Client端发送消息到Topic A
+- [x] Client端USERNAME使用MQTT配置的username
+- [x] Client端已删除指令输入框和发送按钮
+- [x] Client端USB/串口数据以LOG类型JSON消息发送
+- [x] Client端收到EXEC/CONFIG指令转发到USB/串口设备
+- [x] Client端校验失败回复ACK错误消息
+- [x] Console端连接后自动订阅Topic A
+- [x] Console端发送消息到Topic B
+- [x] Console端USERNAME使用MQTT配置的username
+- [x] Console端新增CMD下拉选择框（EXEC、CONFIG）
+- [x] Console端输入内容作为DATA字段封装JSON发送
+- [x] Console端合法消息按 [USERNAME] [CMD] [DATA] 格式打印
+- [x] Console端校验失败回复ACK错误消息
+- [x] 客户端可以正常启动
+- [x] 控制台可以正常启动

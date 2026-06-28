@@ -1,0 +1,11 @@
+- [x] MQTTConfig配置类包含client_id字段
+- [x] save_config函数保存client_id到配置文件
+- [x] MQTT客户端_generate_client_id方法优先使用配置的client_id
+- [x] 客户端UI包含Client ID输入框
+- [x] 客户端connect_mqtt方法保存client_id到配置
+- [x] 控制台UI包含Client ID输入框
+- [x] 控制台connect_mqtt方法保存client_id到配置
+- [x] Client ID输入框支持留空（自动生成）
+- [x] Client ID输入框显示占位符提示文本
+- [x] 客户端可以正常启动
+- [x] 控制台可以正常启动
